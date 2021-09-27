@@ -1,0 +1,128 @@
+body {
+  background-color: #291f18 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar2 {
+  background-color: none;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+}
+a {
+  color: #fff;
+  cursor: pointer;
+}
+
+.dropdown-menu >.submenu:hover {
+  background-color: #ddd !important;
+  color: #f3b69f !important;
+}
+a:hover,li:hover {
+  color: #f3b69f;
+  text-decoration: none !important;
+  background-color: transparent !important;
+}
+
+.collapsed2 {
+  background-color: #fff !important;
+  color: #fff !important;
+  z-index: 2 !important;
+}
+
+.about-main {
+  width: 80%;
+  height: 800px !important;
+  background-color: #f3b69f;
+  margin: auto;
+}
+
+.about-section {
+  box-sizing: border-box;
+  color: #000;
+  width: 50%;
+  margin: 50px auto;
+  font-size: 20px;
+}
+
+.about-head-div {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.contact-main {
+  width: 80%;
+  height: 800px !important;
+  background-color: #f3b69f;
+  margin: auto;
+}
+
+.contact-section {
+  box-sizing: border-box;
+  color: #000;
+  width: 50%;
+  margin: 50px auto;
+  font-size: 20px;
+}
+
+.contact-head-div {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+input, textarea {
+  background-color: transparent !important;
+  border: 1px solid #000 !important;
+  outline: none !important;
+}
+
+input:focus, textarea:focus {
+  outline: none !important;
+}
+
+input::placeholder {
+  color: rgb(100, 99, 99) !important;
+}
+
+.submit-btn {
+  background-color: #291f18;
+  color: #fff;
+}
+
+.project-section {
+  box-sizing: border-box;
+  color: #fff;
+  width: 50%;
+  margin: 50px auto;
+  font-size: 19px;
+}
+
+.project-head-div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid ;
+}
+.project-flex {
+  width: 50%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.project-flex-item {
+  height: 200px;
+  width: 47%;
+  background-color: #fff;
+  padding: 5px;
+  margin: 10px;
+}
+
+.project-flex-item2 {
+  height: 200px;
+  width: 47%;
+  background-color: #fff;
+  padding: 5px;
+  margin: 10px;
+}
