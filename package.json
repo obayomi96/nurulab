@@ -1,0 +1,21 @@
+{
+  "name": "nurulab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve ./public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obayomi96/nurulab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obayomi96/nurulab/issues"
+  },
+  "homepage": "https://github.com/obayomi96/nurulab#readme"
+}

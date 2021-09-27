@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Nurulab | Consultancy - Consultancy</title>
+  <title>Nurulab | Consultancy - Contact</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body style="background-color: #291f18;">
@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="about.html"> About Us</a></li>
-            <li class="active" ><a href="projects.html">Projects</a></li>
+            <li><a href="projects.html">Projects</a></li>
             <li class="dropdown">
               <a href="work.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -37,9 +37,10 @@
                 <li class="submenu"><a href="creativedirection.html">Creative Direction</a></li>
                 <li class="submenu"><a href="mediaandcomms.html">Media & Communication</a></li>
                 <li class="submenu"><a href="work.html">All works</a></li>
+
               </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
           </ul>
         
           <div class="nav navbar-nav navbar-right">
@@ -51,66 +52,43 @@
   </header>
   <!-- HEADER ENDS HERE -->
 
-  <main>
-    <div>
-      <!-- <img src="./public/images/" class="logo-image" alt="banner"> -->
+  <main class="contact-main">
 
-      <div class="project-section">
+    <div class="contact-section">
+      <div class="contact-head-div">
+        <h1>Let's work together</h1>
+        <p style="padding-top: 20px;">For consultation and project collaborations</p>
+      </div>
 
-  
+      <div>
+        <!-- <img src="./public/images/" class="logo-image" alt="banner"> -->
+      </div>
+
+      <form action="">
+
+      </form>
+
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Phone Number</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+2380466778866">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Your message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
         <div>
-          <!-- <img src="./public/images/" class="logo-image" alt="banner"> -->
+          <button type="submit" class="btn btn-lg submit-btn mt-2">Submit</button>
         </div>
-
-        <div class="project-head-div">
-          <p style="padding: 20px 0; font-weight: bold;">Brand Management | Marketing | Communication</p>
-          <h1>Clients</h1>
-        </div>
-      </div>
-
-
-    </div>
-
-    <div>
-
-      <div class="project-flex">
-        <div class="project-flex-item">
-          <div>
-
-          </div>
-          Maki Oh
-        </div>
-
-        <div class="project-flex-item2">
-          <div>
-
-          </div>
-          <P>Art x Lagos</P>
-        </div>
-      </div>
-
-      <div class="project-flex">
-        <div class="project-flex-item">
-          <div>
-            
-          </div>
-          Africa Fashion Foundation
-        </div>
-
-        <div class="project-flex-item2">
-          <div>
-            
-          </div>
-          Adara Foundation
-        </div>
-
-        <div class="project-flex-item2">
-          <div>
-            
-          </div>
-          Kenneth Ize
-        </div>
-      </div>
+      </form>
 
     </div>
 
@@ -124,3 +102,21 @@
   <script src="public/bootstrap/js/bootstrap.min.js"></script> -->
 </body>
 </html>
+
+<!-- 
+<div class="nav navbar-nav">
+  <li><a href="#">Projects</a></li>
+<a class="navbar-brand" href="#">Projects</a>
+<a class="navbar-brand" href="#">About Us</a>
+    <a class="navbar-brand" href="#">Contact</a>
+
+  <span class="dropdown">
+    <a href="#" class="dropdown-toggle navbar-brand" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work</a>
+    <ul class="dropdown-menu mt-8">
+      <li><a href="#">Consultancy</a></li>
+      <li><a href="#">Project Management</a></li>
+      <li><a href="#">Creative Direction</a></li>
+      <li><a href="#">Media & Communication</a></li>
+    </ul>
+  </span>
+</div> -->
